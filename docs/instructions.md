@@ -45,7 +45,9 @@ See the data dictionary for each template in `templates/` for:
 
 1. Log in to **QC App** [here](https://gp2-clinical-qc-dot-gp2-data-explorer.uc.r.appspot.com/)  
 2. Upload your completed `.xlsx` or `.csv` file  
-3. Wait for automated validation feedback and QC steps  
+3. Wait for automated validation feedback and QC steps
+
+Note: As of December 2025, the app is under development and does not currently accommodate all data modalities. If you are submitting data that the app does not support, contact clinicaldata@gp2.org for instructions on how to submit clinical data.  
 
 ---
 
