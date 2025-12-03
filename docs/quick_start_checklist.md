@@ -9,6 +9,7 @@ Use this checklist to ensure your study data is correctly formatted and ready fo
 - [ ] Review the data dictionary in `templates/`
 
 ## 2. Fill in Data
+- [ ] ID matches provided clinical ID in sample manifest
 - [ ] One row per participant/observation  
 - [ ] Column names unchanged  
 - [ ] Categorical values match allowed codes  
