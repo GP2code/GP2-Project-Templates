@@ -1,0 +1,13 @@
+Item,Description,ItemType,Required,Values
+clinical_id,clinical ID,string,required,
+visit_name,"visit name: screening, baseline, V01, V02 etc. baseline is when the participants were enrolled",string,required,
+visit_month,"month from baseline visit (longitudinal study. Negative value is possible for screening visits), rounded integer",integer,required,(y>=-1200) & (y<=1200)
+age_of_onset,Age of onset if known,numeric,nullable,(y>=0) & (y<=125)
+age_at_baseline,age_at_baseline,numeric,nullable,(y>=0) & (y<=125)
+last_diagnosis,"Latest ""clinical"" diagnosis",string,nullable,"[""Idiopathic PD"", ""Alzheimer's disease"", ""Frontotemporal dementia"", ""Corticobasal syndrome"", ""Dementia with Lewy bodies"", ""Dopa-responsive dystonia"", ""Essential tremor"", ""Hemiparkinson/hemiatrophy syndrome"", ""Juvenile autosomal recessive parkinsonism"", ""Motor neuron disease with parkinsonism"", ""Multiple system atrophy"", ""Neuroleptic-induced parkinsonism"", ""Normal pressure hydrocephalus"", ""Progressive supranuclear palsy"", ""Psychogenic parkinsonism"", ""Vascular parkinsonism"", ""No PD nor other neurological disorder"", ""Spinocerebellar Ataxia (SCA)"", ""Prodromal non-motor PD"", ""Prodromal motor PD"", ""Other neurological disorder""]"
+path_diagnosis,Pathological confirmed diagnosis,string,nullable,"[""Idiopathic PD"", ""Alzheimer's disease"", ""Frontotemporal dementia"", ""Corticobasal syndrome"", ""Dementia with Lewy bodies"", ""Dopa-responsive dystonia"", ""Essential tremor"", ""Hemiparkinson/hemiatrophy syndrome"", ""Juvenile autosomal recessive parkinsonism"", ""Motor neuron disease with parkinsonism"", ""Multiple system atrophy"", ""Neuroleptic-induced parkinsonism"", ""Normal pressure hydrocephalus"", ""Progressive supranuclear palsy"", ""Psychogenic parkinsonism"", ""Vascular parkinsonism"", ""No PD nor other neurological disorder"", ""Spinocerebellar Ataxia (SCA)"", ""Prodromal non-motor PD"", ""Prodromal motor PD"", ""Other neurological disorder""]"
+living_status_at_censoring,"Event is death. 0=right censored (not yet) 1= event at the ""age"",  2=left censored (already)",numeric,nullable,"y.isin([0,1,2])"
+age_at_living_status_censored,"age at event (status=1), age at last obs (status=0), age at first obs (status=2)",numeric,nullable,(y>=0) & (y<=120)
+path_year_death,year of death,numeric,nullable,(y>1920)&(y<2050)
+age_at_death,expired_age (Age at Death),string,nullable,
+cause_death,Cause of death,string,nullable,
