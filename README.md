@@ -24,7 +24,7 @@ If you have any questions, please contact clinicaldata@gp2.org
 - [Hoehn & Yahr](templates/HY/)
 - [Motor](templates/Motor/)
 - [Dementia](templates/Dementia/)
-- Mortality
+- [Mortality](templates/Mortality/)
 
 ### 2. Environmental Interest Group
 - [Environmental Data Template](templates/Environmental/)
