@@ -47,7 +47,7 @@ See the data dictionary for each template in `templates/` for:
 2. Upload your completed `.xlsx` or `.csv` file  
 3. Wait for automated validation feedback and QC steps
 
-Note: As of December 2025, the app is under development and does not currently accommodate all data modalities. If you are submitting data that the app does not support, contact clinicaldata@gp2.org for instructions on how to submit clinical data.  
+Note: As of December 2025, the app is under development and does not currently accommodate all data modalities. If you are submitting data that the app does not support, contact clinicaldata@gp2.org for instructions on how to submit clinical data. Please include the name of your cohort/study, the project/interest group you would like to contribute data to, and what data you would like to share. A member of the clinical data management team will walk you through the steps to deposit data for QC and inclusion in GP2 research projects. 
 
 ---
 
