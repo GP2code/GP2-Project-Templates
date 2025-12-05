@@ -23,10 +23,10 @@ Use this checklist to ensure your study data is correctly formatted and ready fo
 - [ ] No merged cells  
 - [ ] Saved as `.xlsx` or `.csv`
 
-## 4. Submit via App
+## 4. Submit via Data
 - [ ] Access the **QC App** [here](https://gp2-clinical-qc-dot-gp2-data-explorer.uc.r.appspot.com/) 
 - [ ] Upload completed `.xlsx` or `.csv` file  
-- [ ] Pass all QC checks and submit  
+- [ ] Pass all QC checks and submit OR email clinicaldata@gp2.org
 
 ## 5. Data Privacy
 - [ ] De-identified data only  
