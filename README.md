@@ -10,11 +10,11 @@ Welcome to the **GP2 Project Data Submission Repository** for active projects wi
 
 ![QC App Interface](./images/qc-app.png)
 
-> **Note:** This app is currently under development and more modalities will be added soon!
+> **Note:** This app is currently under development and more modalities will be added soon! The app currently supports Hoehn & Yahr, CISI-PD, and MDS UPDRS Parts II and III.
 
 Using this standardized format ensures all submitted data can be efficiently integrated and analyzed by the consortium's analysis team.
 
-If you have any questions, please contact clinicaldata@gp2.org
+If you have any questions or need to submit data that is not currently supported by the QC app, please contact clinicaldata@gp2.org for additional support.
 
 ---
 
@@ -55,7 +55,7 @@ If you have any questions, please contact clinicaldata@gp2.org
 1. **Download** the blank template and review the variable definitions
 2. **Enter** your study data according to the instructions and allowed values
 3. **Validate** your file using the quick start checklist
-4. **Submit** your completed `.csv` file through the QC App
+4. **Submit** your completed `.csv` file through the QC App or by contacting clinicaldata@gp2.org
 
 ---
 
