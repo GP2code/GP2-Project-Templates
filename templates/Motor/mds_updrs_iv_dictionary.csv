@@ -1,0 +1,16 @@
+﻿Item,Description,ItemType,Required,Values,
+clinical_id,clinical ID,string,required,,
+visit_month,"month from baseline visit (longitudinal study. Negative value is possible for screening visits), rounded integer",integer,required,(y>=-1200) & (y<=1200),
+age_at_baseline,age at baseline visit,numeric,required,(y>=0) & (y<=125),Can be derived from previously submitted sample manifests
+age_of_onset,Age at onset (any symptom),numeric,required if age_at_diagnosis not available,(y>=0) & (y<=120),Can be derived from previously submitted sample manifests and supplemented by newly uploaded data
+age_at_diagnosis,Age at diagnosis,numeric,required if age_at_onset not available,(y>=0) & (y<=120),Can be derived from previously submitted sample manifests and supplemented by newly uploaded data
+code_upd2401_time_spent_with_dyskinesias,4.01 MDS-UPDRS - Time Spent With Dyskinesias (UPD2401),integer,nullable,"y.isin([0,1,2,3,4])",
+code_upd2402_functional_impact_of_dyskinesias,4.02 MDS-UPDRS - Functional Impact Of Dyskinesias (UPD2402),integer,nullable,"y.isin([0,1,2,3,4])",
+code_upd2403_time_spent_in_the_off_state,4.03 MDS-UPDRS - Time Spent In The Off State (UPD2403),integer,nullable,"y.isin([0,1,2,3,4])",
+code_upd2404_functional_impact_of_fluctuations,4.04 MDS-UPDRS - Functional Impact Of Fluctuations (UPD2404),integer,nullable,"y.isin([0,1,2,3,4])",
+code_upd2405_complexity_of_motor_fluctuations,4.05 MDS-UPDRS - Complexity Of Motor Fluctuations (UPD2405),integer,nullable,"y.isin([0,1,2,3,4])",
+code_upd2406_painful_off_state_dystonia,4.06 MDS-UPDRS - Painful Off-State Dystonia (UPD2406),integer,nullable,"y.isin([0,1,2,3,4])",
+mds_updrs_part_iv_summary_score,MDS-UPDRS Part IV Summary Score,integer,nullable,(y>=0) & (y<=24),
+upd2406_1_total_hours_off,4.06.1 MDS-UPDRS - Total Hours OFF,numeric,nullable,(y>=0) & (y<=1440),
+upd2406_2_off_hours_wo_dystonia,4.06.2 MDS-UPDRS - Total OFF Hours with Dystonia,numeric,nullable,(y>=0) & (y<=1440),
+upd2406_3_pct_off_dystonia,4.06.3 MDS-UPDRS - % OFF Dystonia = ((2/1)*100),numeric,nullable,(y>=0) & (y<=100),
